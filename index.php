@@ -34,7 +34,7 @@
                 </tr>
                 <div id="form-busca">
                     <form action="index.php" method="get" >
-                        <input type="search" name="localizar" id="localizar">
+                        <input type="search" name="localizar" id="localizar"  placeholder="Digite um nome...">
                         <button type="submit">&#9906;</button>
                     </form>
                 </div>                

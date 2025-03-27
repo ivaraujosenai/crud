@@ -25,6 +25,12 @@ section{
     width: 100%;
     max-width: 50%;
 }
+#container-cadastro nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+}
 #container-tabela{
     display: flex;
     flex-direction: column;
@@ -44,13 +50,17 @@ section{
     border: 0;
     border-radius: 10px;
 }
+.form-cadastro input{
+    margin-bottom: 15px;
+}
+
 #form-busca{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    gap: 10px;    
-    background-color: red;
+    align-items: center;
+    justify-items: center;    
+    gap: 10px;
     width: 100%;
     padding: 3px;
 }
@@ -68,7 +78,6 @@ section{
 
 input{
     padding: 10px;
-    margin-bottom: 15px;
 }
 
 button{

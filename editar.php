@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>    
-    <section>
+    <section>        
         <div id="container-cadastro">
+            <nav>
+                <a href="index.php">&#8617;</a>
+            </nav>
             <h1>Editar Cadastro</h1>
             
                 <form action="alterar.php" method="post" class="form-cadastro">
